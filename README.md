@@ -13,19 +13,29 @@ Following modules need to be installed for it to work properly:
 ### OpenCV:
 OpenCV is a huge open-source library for computer vision, machine learning, and image processing. OpenCV supports a wide variety of programming languages like Python, C++, Java, etc. It can process images and videos to identify objects, faces, or even the handwriting of a human.
 
-It can be installed using "**pip install opencv-python**"
+It can be installed using
+```
+pip install opencv-python
+```
 
 ### Mediapipe:
 MediaPipe is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines.
 
-It can be installed using "**pip install mediapipe**"
+It can be installed using 
+```
+pip install mediapipe
+```
 
 If you are facing dependency issues with the above command, you can lower down the version of mediapipe while installing it using 
 
-"**pip install mediapipe==('**version**')**"
+```
+pip install mediapipe==('version')
+```
 
 ### Pyautogui:
 PyAutoGUI lets your Python scripts control the mouse and keyboard to automate interactions with other applications. The API is designed to be simple. PyAutoGUI works on Windows, macOS, and Linux, and runs on Python 2 and 3.
 
-It can be installed using "**pip install pyautogui**"
-
+It can be installed using
+```
+pip install pyautogui
+```
